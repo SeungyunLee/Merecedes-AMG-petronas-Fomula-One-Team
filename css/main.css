@@ -1,0 +1,161 @@
+header {
+  background-color: black;
+  width:100%;
+  position:fixed;
+  top:0px;
+  font-size:16px;
+  color:#fff;
+  height:105px;
+  font-family: MBCorpo Text, DaimlerCS-Regular,Helvetica, Arial, sans-serif;
+}
+header .hightop {
+  position:relative;
+ 
+}
+header .hightop .inner {
+  position:absolute;
+  right:100px;
+  display: flex;
+  font-size: Arial, sans-serif;
+}
+
+header .hightop ul.inner li a {
+  color: white;
+  position:relative;
+  text-decoration-line: none;
+  margin:15px;
+  top: 10px;
+}
+header .hightop ul.inner li a:hover {
+  color:#0ca597;
+}
+
+header .logo {
+  position:relative;
+  left:50px;
+  top:5px;
+  height: 44px;
+  width: auto;
+}
+header .logo .img{
+  position:relative;
+}
+
+header .middletop {
+  display:flex;
+  position:absolute;
+  right:100px;
+  background-size: 40px 40px;
+  top:65px;
+  
+}
+header .middletop .inner {
+  display:flex;
+  position:relative;
+  
+}
+header .middletop .inner li {
+  
+  position:relative; 
+}
+header .middletop .inner li a {
+  text-decoration-line: none;
+  color: white;
+  margin:25px;
+}
+header .middletop .inner li a:hover {
+  color:#0ca597;
+}
+
+header .lowtop {
+  position:relative;
+  top:o;
+  height:75px;
+  background-color:#212529;
+}
+header .lowtop .inner {
+  display: flex;
+  justify-content: center;
+  position:relative;
+  top:30px;
+}
+header .lowtop .inner li {
+  position:relative;
+  
+}
+header .lowtop .inner li a {
+  text-decoration-line:none;
+  color:hsla(0,0%,100%,.5);
+  margin:15px;
+  align-items: center;
+  
+}
+header .lowtop .inner li a:hover {
+  color:#fff;
+}
+
+
+/* ----Slider-------------------------------------- */
+
+.Slider {
+  height:507px;
+  background-color: black;
+  position:absolute;
+  top: 168px;
+  width:100%;
+} 
+
+.Slider .swiper {
+  position: absolute;
+}
+
+.Slider .swiper .swiper-slide {
+  position: absolute;
+  left:80px;
+}
+.Slider .swiper .swiper-slide .image {
+  height:100% !important;
+  width:100%;
+  object-fit:cover;
+  display:block;
+  position: absolute;
+  
+
+
+}
+
+.Slider .swiper-prev {
+
+}
+.Slider .swiper-next {
+
+}
+
+/* ----middle search-------------------------------- */
+
+.middle-search {
+  position:absolute;
+  height:92px;
+  width:100%;
+  background-color: #141414;
+  top:675px;
+}
+
+.middle-search .inner {
+  position:absolute;
+  background-color: #141414;
+  width:100%;
+  height: 2.285rem;
+}
+.middle-search .inner input {
+  position:absolute;
+  vertical-align:initial;
+  height:2.285rem;
+  line-height:1.715rem;
+  width: 1138px;
+  left:280px;
+  top:25px;
+}
+.middle-search .inner .material-icons {
+  
+}
